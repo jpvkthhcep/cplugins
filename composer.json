@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-          "cplugins\\log\\": "src/"
+            "Cplugins\\Log\\": "src/"
         }
     }
 }
