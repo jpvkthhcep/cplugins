@@ -11,16 +11,19 @@ composer require cplugins/log
 config/app.php 目录下
 
 注释以下配置
+```
 'log' => env('APP_LOG', 'single'),
+```
 增加以下配置
+```
 'log' => env('APP_LOG', 'daily'),
 //保留30天的日志, 根据需求进行配置
 'log_max_files' => 30,
+```
 
 
 ## 使用 
 
-记录info信息
 ```
 $log = new LogHelper();
 <!-- 该方法支持第二个参数, 传入exception对象-->
