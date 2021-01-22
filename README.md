@@ -1,4 +1,4 @@
-# cplugins
+# cplugins/log
 日志组件
 
 ## 安装
@@ -16,8 +16,9 @@ config/app.php 目录下
 ```
 增加以下配置
 ```
+// 按天拆分日志
 'log' => env('APP_LOG', 'daily'),
-//保留30天的日志, 根据需求进行配置
+// 保留30天的日志, 根据需求进行配置
 'log_max_files' => 30,
 ```
 
