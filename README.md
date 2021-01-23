@@ -24,7 +24,6 @@ config/app.php 目录下
 
 
 ## 使用 
-
 ```
 $log = new LogHelper();
 <!-- 该方法支持第二个参数, 传入exception对象-->
@@ -38,4 +37,10 @@ $log->error("错误信息");
 
 <!-- 该方法支持第二个参数, 传入exception对象-->
 $log->warn("警告信息");
+```
+
+## 输出
+```
+格式： 时间 info 模块 类名 方法名 描述 code message trace
+内容： [2021-01-23 11:49:07] production.INFO: /workspace/php-project/i-admin-manage-pc-interface App\Http\Controllers\Product\TemplateController testLog this is test  
 ```
