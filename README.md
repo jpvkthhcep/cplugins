@@ -4,7 +4,7 @@
 ## 安装
 项目根目录执行:
 ```
-composer require cplugins/log v1.0.3
+composer require cplugins/log v1.0.4
 ```
 
 ## 配置
