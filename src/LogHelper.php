@@ -107,7 +107,7 @@ class LogHelper
 
         
         // 工程名称
-        $projectName = base_path();
+        $projectName = env("APP_NAME");
 
         if (!empty($class) && !empty($function)) {
             return [$projectName, $class, $function];
